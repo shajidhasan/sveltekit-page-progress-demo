@@ -1,0 +1,38 @@
+body {
+	font-family: sans-serif;
+  background-color: #EEE;
+}
+
+h1 {
+  color: #222;
+  word-wrap: break-word;
+  max-width: 50rem;
+}
+
+p {
+  color: #333;
+  word-wrap: break-word;
+  max-width: 50rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #F8485E;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.links {
+  margin-top: 1rem;
+}
